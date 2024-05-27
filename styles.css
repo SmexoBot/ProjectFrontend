@@ -1,0 +1,40 @@
+.flex-container{
+    border: 2px lightseagreen;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /*align-content: space-evenly;*/
+}
+
+.flex-container-is-1{
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.flex-item.card{
+    font: 100 10px "Verdana";
+    background-color: #272746b0;
+    border-radius: 5%;
+    width: 300px;
+    
+}
+
+.flex-item{
+    font: 100 10px "Verdana";
+    background-color: #272746b0;    
+}
+
+.flex-item-is-1{
+    text-align: center;
+}
+
+.flex-image{
+    border-radius: 5%;
+    width: 300px;
+    height: 200px;
+}
+
+.flex-item.is-200{
+    text-align: center;
+}
